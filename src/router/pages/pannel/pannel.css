@@ -1,0 +1,53 @@
+* {
+    font-size: .9rem;
+
+}
+.scroller::-webkit-scrollbar-track {
+    background-color: green;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    background-color: red;
+}
+
+.profile {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+figure{
+    background-color: white;
+}
+figure a{
+    text-decoration: none !important;
+    color: black !important;
+    background-color: transparent !important;
+}
+figcaption {
+
+    svg {
+        font-size: x-large;
+        margin: 2px 10px;
+        cursor: pointer;
+    }
+    .likesComment{
+        font-size: smaller;
+    }
+}
+
+.comment{
+    img{
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 50%;
+    }
+}
