@@ -17,14 +17,16 @@ const MSGBOX = props => {
                 />
 
                 <hr/>
-                <div className="d-flex flex-column  align-items-start rounded-1 mt-1 w-100">
+                <div className="d-flex flex-column  align-items-start rounded-1 mt-1 w-100 newmsgSearch">
                     <p className="ps-1 text-black-50 py-2">results</p>
-                    <a href="#" className="w-100 text-decoration-none" >
-                        <div className="d-flex flex-row justify-content-start align-items-center bg-white w-100 border-bottom py-2">
+                   
+                    <a href="#" className="w-100 text-decoration-none border-bottom " >
+                        <div className="d-flex flex-row justify-content-start align-items-center bg-white w-100 py-2">
                             <img src={img} width={"20px"} height={"20px"} style={{ borderRadius: "50%" }} />
                             <p className="ms-2">parham</p>
                         </div>
                     </a>
+                   
                 </div>
 
 

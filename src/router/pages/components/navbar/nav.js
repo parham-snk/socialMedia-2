@@ -18,19 +18,19 @@ const Navbar = props => {
             }} to="/" className="col-3 text-center  p-2 rounded-1 " >
                 <AiFillHome />
             </NavLink>
-            <NavLink to="/s" className="col-3 text-center  p-2 rounded-1 " onClick={() => {
+            <NavLink onClick={() => {
                 window.scrollTo(0, 0)
-            }}>
+            }} to="/s" className="col-3 text-center  p-2 rounded-1 " >
                 <FaSearch />
             </NavLink>
-            <NavLink to="/e" className="col-3 text-center  p-2 rounded-1" onClick={() => {
+            <NavLink onClick={() => {
                 window.scrollTo(0, 0)
-            }}>
+            }} to="/e" className="col-3 text-center  p-2 rounded-1" >
                 <BiImageAdd />
             </NavLink>
-            <NavLink to="/pannel" className="col-3 text-center  p-2 rounded-1" onClick={() => {
+            <NavLink onClick={() => {
                 window.scrollTo(0, 0)
-            }}>
+            }} to="/pannel" className="col-3 text-center  p-2 rounded-1" >
                 <IoPerson />
             </NavLink>
 
