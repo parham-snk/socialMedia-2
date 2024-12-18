@@ -25,7 +25,7 @@ const Navbar = props => {
             </NavLink>
             <NavLink onClick={() => {
                 window.scrollTo(0, 0)
-            }} to="/e" className="col-3 text-center  p-2 rounded-1" >
+            }} to="/createpost" className="col-3 text-center  p-2 rounded-1" >
                 <BiImageAdd />
             </NavLink>
             <NavLink onClick={() => {

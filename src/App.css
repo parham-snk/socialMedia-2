@@ -32,8 +32,13 @@ a {
 
 }
 
-.chatList{
+.chatList {
     height: 100% !important;
     overflow-y: scroll;
     background-color: ghostwhite;
+    padding-bottom: 75px !important;
+
+    >a:last-child>div {
+        border-bottom: none !important;
+    }
 }
